@@ -24,7 +24,7 @@ const Definition: React.FC<DefinitionProps> = ({word}) => {
             setDefinition(body[0]);
         })
     }, [word])
-    if(definition){
+    if(definition && word.length > 0){
         return <> 
     <h1>{definition.word}</h1>
     <h2>{definition.phonetic}</h2>
