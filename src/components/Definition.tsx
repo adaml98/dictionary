@@ -22,11 +22,9 @@ const Definition: React.FC<DefinitionProps> = ({word}) => {
             return res.json();
         }).then((body) => {
             setDefinition(body[0]);
-            console.log(body[0].meanings[0].definitions[0].definition)
         })
     }, [word])
     if(definition){
-
         return <> 
     <h1>{definition.word}</h1>
     <h2>{definition.phonetic}</h2>
