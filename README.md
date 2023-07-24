@@ -19,3 +19,7 @@ TypeScript and React
 ---
 
 **Access here**
+
+https://brilliant-pixie-15f1df.netlify.app
+
+---
